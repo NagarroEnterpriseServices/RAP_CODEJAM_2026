@@ -1,0 +1,21 @@
+projection implementation in class ZBP_C_TRAVEL217 unique;
+strict ( 2 );
+extensible;
+use draft;
+use recommendations;
+use side effects;
+define behavior for ZC_TRAVEL217 alias Travel
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+}
