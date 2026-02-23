@@ -1,0 +1,9 @@
+@EndUserText.label: '218 Trvl at'
+@ObjectModel: {
+  leadingEntity: {
+    name: 'z218c_trvl_at'
+  }
+}
+define service Z218_TRVL_AT {
+  expose z218c_trvl_at;
+}
